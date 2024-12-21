@@ -2,15 +2,15 @@
 import { onMounted, ref } from 'vue';
 import api from '../../api';
 
-const recipes = ref([]);
+// const recipes = ref([]);
 
-const fetchDataRecipes = async () => {
-    // await api.get('/api/recipes')
-    await api.get('https://jsonplaceholder.typicode.com/todos/')
-    .then(response => {
-        recipes.value = response.data
-    })
-}
+// const fetchDataRecipes = async () => {
+//     // await api.get('/api/recipes')
+//     await api.get('https://jsonplaceholder.typicode.com/todos/')
+//     .then(response => {
+//         recipes.value = response.data
+//     })
+// }
 
 // console.log(recipes);
 // onMounted(()=>{
