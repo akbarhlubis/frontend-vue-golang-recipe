@@ -10,7 +10,5 @@ addIcons(FaFlag, RiZhihuFill);
 
 const app = createApp(App)
 app.use(router)
-app.component("v-icon", OhVueIcon)
 app.mount('#app');
-
-
+// app.component("v-icon", OhVueIcon);
